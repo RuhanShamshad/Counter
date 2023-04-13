@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: aqua;
+}
+.title{
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  color: purple;
+}
+.counter-value{
+  font-size: 4rem;
+  margin-left: 7rem;
+  font-weight: 1000;
+  color: red;
+}
+.controlls{
+  display: flex;
+  justify-content: center;
+  margin: 4rem;
+}
+.up,
+.reset,
+.down{
+margin: 2px;
+padding: 3px;
+border: none;
+cursor: pointer;
+color: antiquewhite;
+}
+.up{
+  background-color: green;
+}
+.down{
+  background-color: red;
+}
+.reset{
+  background-color: black;
+}
+:hover:is(.up,.down,.reset) {
+  opacity: 0.5;
+}
+
+
+
+
+
+
+
